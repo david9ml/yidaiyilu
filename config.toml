@@ -2,7 +2,7 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "Hugo Agency Theme"
-theme = "agency"
+theme = "yidaiyilu"
 
 
 [params]
@@ -35,7 +35,7 @@ theme = "agency"
 
 	# Navigation
 	[params.navigation]
-		brand = "The Agency"
+		brand = "一带一路西风站"
 		services = "Services"
 		portfolio = "Portfolio"
 		about = "About"
