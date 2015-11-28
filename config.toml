@@ -47,9 +47,9 @@ theme = "yidaiyilu"
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Welcome To Our Studio!"
-		subtitle = "It's nice to meet you"
-		buttonText = "Tell me more"
+		title = "欢迎来到!"
+		subtitle = "一带一路 西风站"
+		buttonText = "点击进入"
 
 
 	# Services section
