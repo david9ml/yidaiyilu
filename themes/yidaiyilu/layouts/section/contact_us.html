@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+    {{ partial "home/head.html" . }}
+</head>
+    <body id="page-top" class="index">
+        {{ partial "home/single_nav.html" . }}
+        {{ partial "home/team.html" . }}
+        {{ partial "home/footer.html" . }}
+        {{ partial "home/modals.html" . }}
+    </body>
+</html>

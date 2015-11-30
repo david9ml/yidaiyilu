@@ -36,12 +36,17 @@ theme = "yidaiyilu"
 	# Navigation
 	[params.navigation]
 		brand = "一带一路西风站"
-		services = "Services"
+		services = "线路图"
 		portfolio = "Portfolio"
 		about = "About"
 		team = "Team"
 		contact = "Contact"
 		event_summary = "活动概览"
+		event_chair = "组委会"
+		news_center = "新闻中心"
+		event_history = "往届活动"
+		signup = "网上报名"
+		contact_us = "联系我们"
 
 
 	# Hero section
@@ -56,8 +61,8 @@ theme = "yidaiyilu"
 
 	# Services section
 	[params.services]
-		title = "Services"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		title = "万里行线路图"
+		subtitle = "线路图以及视频简介"
 
 		[[params.services.list]]
 			icon = "fa-shopping-cart"
@@ -127,16 +132,17 @@ theme = "yidaiyilu"
 
 	# Team section
 	[params.team]
-		title = "Our amazing team"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+		title = "我们辛勤耕耘的团队"
+		subtitle = "不要犹豫, 随时联系我们热情的组织者."
+		description = "我们在上海的地址:上海市闸北区平型关路138号901室"
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
 		[[params.team.members]]
 			img = "1.jpg"
-			name = "Kay Garland"
-			position = "Lead Designer"
+			name = "王伟"
+			position = "行程事宜组织者"
+            phone = "15821114301"
 			social = [
 				["fa-twitter", "#"],
 				["fa-facebook", "#"],
@@ -145,8 +151,9 @@ theme = "yidaiyilu"
 
 		[[params.team.members]]
 			img = "2.jpg"
-			name = "Larry Parker"
-			position = "Lead Marketer"
+			name = "麻卫华"
+			position = "媒体事宜组织者"
+            phone = "13816732730"
 			social = [
 				["fa-twitter", "#"],
 				["fa-facebook", "#"],
@@ -155,8 +162,9 @@ theme = "yidaiyilu"
 
 		[[params.team.members]]
 			img = "3.jpg"
-			name = "Diana Pertersen"
-			position = "Lead Developer"
+			name = "陈光浦"
+			position = "赞助商事宜组织者"
+            phone = "13588042812"
 			social = [
 				["fa-twitter", "#"],
 				["fa-facebook", "#"],
