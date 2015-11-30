@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://xifengzhan.com/"
 languageCode = "en-us"
 title = "Hugo Agency Theme"
 theme = "yidaiyilu"
@@ -50,6 +50,7 @@ theme = "yidaiyilu"
 		title = "欢迎来到!"
 		subtitle = "一带一路 西风站"
 		buttonText = "点击进入"
+        homeurl = "/home"
 
 
 	# Services section
