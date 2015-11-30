@@ -41,6 +41,7 @@ theme = "yidaiyilu"
 		about = "About"
 		team = "Team"
 		contact = "Contact"
+		event_summary = "活动概览"
 
 
 	# Hero section
