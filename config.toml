@@ -30,15 +30,15 @@ theme = "yidaiyilu"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "your@email.com"
+	email = "yanchao727@gmail.com"
 
 
 	# Navigation
 	[params.navigation]
 		brand = "一带一路西风站"
 		services = "线路图"
-		portfolio = "Portfolio"
-		about = "About"
+		portfolio = "精彩瞬间"
+		about = "赞助商"
 		team = "Team"
 		contact = "Contact"
 		event_summary = "活动概览"
@@ -86,8 +86,8 @@ theme = "yidaiyilu"
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
-		title = "Portfolio"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		title = "精彩瞬间"
+		subtitle = "快来加入我们."
 
 		[params.portfolio.modal]
             client = "Client"
@@ -98,8 +98,8 @@ theme = "yidaiyilu"
 
     # About section
 	[params.about]
-		title = "About"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		title = "赞助商"
+		subtitle = "机构与赞助商"
 		endpoint = "Be part<br>of our<br>story!"
 
 		# The events will be listed from the top to the bottom.
