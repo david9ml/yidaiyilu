@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+    {{ partial "home/head.html" . }}
+</head>
+    <body id="page-top" class="index">
+        {{ partial "home/single_nav.html" . }}
+        <section id="event_summary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">活动概览</h2>
+                        <h3 class="section-subheading text-muted">一带一路万里行-开车去迪拜</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                    <p class="text-muted">“一带一路万里行-开车去迪拜”是西风站自驾游工作室继“一带一路万里行-走进米兰”项目之后，联合中广德丰文化投资（北京）有限公司推出的又一超长自驾旅行产品。随着一带一路政策经济效应的显现，该项目已经获得了阿联酋中国商会、阿联酋温州商会和迪拜旅游局等官方机构和贸易组织的大力支持，旨在帮助推动和促进中国与一带一路沿线国家在政治、经济和文化层面的交流与合作。</p>
+                    <p class="text-muted">“一带一路万里行-开车去迪拜”项目全程5，000公里，活动共招募１５名自驾游爱好者，从上海出发，沿途穿越中国、吉尔吉斯坦、乌兹别克斯坦、土库曼斯坦、伊朗、阿联酋等6个国家，涵盖“新丝绸之路”的重要节点。</p>
+                    <p class="text-muted">这是一次穿越亚洲大陆的非凡体验，这是一次穿越历史的文化体验，东西方文化在这块大陆上交融碰撞，我们乘风西进，见证历史！</p>
+                    <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{ partial "home/footer.html" . }}
+        {{ partial "home/modals.html" . }}
+        {{ partial "home/event_summary_js.html" . }}
+    </body>
+</html>
