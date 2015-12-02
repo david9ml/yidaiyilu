@@ -8,11 +8,14 @@
 
 $(function() {
     $(window).load(function() {
-      $('.flexslider').flexslider({
+      $('.flexslider1').flexslider({
         animation: "slide",
-        controlNav: "thumbnails",
-        //slideshow: true,
-        //animationLoop: true,
+        animationLoop: true,
+        itemWidth: 180,
+        itemMargin: 5,
+        slideshow: true,
+        minItems: 3,
+        maxItems: 5
       });
     });
 });
