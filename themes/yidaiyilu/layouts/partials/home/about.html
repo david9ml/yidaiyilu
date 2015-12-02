@@ -8,33 +8,15 @@
             </div>
         </div>
         <div class="row">
-            <!--
             <div class="col-lg-12">
-                <ul class="timeline">
-                    {{ range $i, $e := .Site.Params.about.events }}
-                    <li {{ if (not (modBool $i 2)) }}class="timeline-inverted" {{ end }}>
-                        <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/{{ .img }}" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>{{ .date }}</h4>
-                                <h4 class="subheading">{{ .title }}</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">{{ .description  | markdownify }}</p>
-                            </div>
-                        </div>
-                    </li>
-                    {{ end }}
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>{{ with .Site.Params.about.endpoint }}{{ . | markdownify }}{{ end }}</h4>
-                        </div>
-                    </li>
-                </ul>
+                <h3  style="text-align:left;font-weight: bold;">主办机构</h3>
             </div>
-            -->
+            <div class="col-lg-12">
+                <h3  style="text-align:left;font-weight: bold;">支持机构</h3>
+            </div>
+            <div class="col-lg-12">
+                <h3  style="text-align:left;font-weight: bold;">往届赞助商</h3>
+            </div>
         </div>
     </div>
 </section>
