@@ -56,7 +56,7 @@ theme = "yidaiyilu"
 		title = "欢迎来到!"
 		subtitle = "一带一路 西风站"
 		buttonText = "点击进入"
-        homeurl = "/home"
+        homeurl = "/"
 
 
 	# Services section

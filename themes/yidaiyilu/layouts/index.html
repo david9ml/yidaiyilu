@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 <head>
-    {{ partial "head.html" . }}
+    {{ partial "home/head.html" . }}
 </head>
     <body id="page-top" class="index">
+        {{ partial "home/nav.html" . }}
+        {{ partial "home/hero.html" . }}
+        {{ partial "home/services.html" . }}
+        {{ partial "home/portfolio.html" . }}
+        {{ partial "home/about.html" . }}
         <!--
-        {{ partial "nav.html" . }}
+        {{ partial "home/team.html" . }}
         -->
-        {{ partial "hero.html" . }}
+        {{ partial "home/clients.html" . }}
         <!--
-        {{ partial "services.html" . }}
-        {{ partial "portfolio.html" . }}
-        {{ partial "about.html" . }}
-        {{ partial "team.html" . }}
-        {{ partial "clients.html" . }}
-        {{ partial "contact.html" . }}
+        {{ partial "home/contact.html" . }}
         -->
+        {{ partial "home/footer.html" . }}
+        {{ partial "home/modals.html" . }}
+        {{ partial "js.html" . }}
     </body>
 </html>
