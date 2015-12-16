@@ -11,11 +11,29 @@ $(function() {
       $('.flexslider1').flexslider({
         animation: "slide",
         animationLoop: true,
-        itemWidth: 180,
+        itemWidth: 240,
         itemMargin: 5,
         slideshow: true,
-        minItems: 3,
-        maxItems: 5
+        minItems: 1,
+        maxItems: 2
+      });
+      $('.flexslider2').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        itemWidth: 240,
+        itemMargin: 5,
+        slideshow: true,
+        minItems: 1,
+        maxItems: 2
+      });
+      $('.flexslider3').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        itemWidth: 250,
+        itemMargin: 5,
+        slideshow: true,
+        minItems: 2,
+        maxItems: 3
       });
     });
 });

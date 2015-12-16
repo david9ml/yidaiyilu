@@ -85,7 +85,7 @@ html[xmlns] .flexslider .slides {
   -moz-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
   -o-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
   box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
-  height: 800px;
+  height: 300px;
 }
 .flexslider .slides {
   zoom: 1;
@@ -93,7 +93,7 @@ html[xmlns] .flexslider .slides {
 .flexslider .slides img {
   height: auto;
   -moz-user-select: none;
-  height: 800px;
+  height: 300px;
 }
 .flex-viewport {
   max-height: 2000px;

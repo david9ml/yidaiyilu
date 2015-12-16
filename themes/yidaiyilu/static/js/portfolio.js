@@ -10,7 +10,13 @@ $(function() {
     $(window).load(function() {
       $('.flexslider').flexslider({
         animation: "slide",
-        controlNav: "thumbnails",
+        animationLoop: true,
+        itemWidth: 600,
+        itemMargin: 5,
+        //slideshow: true,
+        //controlNav: "thumbnails",
+        minItems: 3,
+        maxItems: 5
         //slideshow: true,
         //animationLoop: true,
       });

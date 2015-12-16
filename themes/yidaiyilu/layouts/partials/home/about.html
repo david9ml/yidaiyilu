@@ -3,44 +3,71 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ with .Site.Params.about.title }}{{ . }}{{ end }}</h2>
+                <h2 class="section-subheading">{{ with .Site.Params.about.title }}{{ . }}{{ end }}</h2>
                 <h3 class="section-subheading text-muted">{{ with .Site.Params.about.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+                <hr/>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <h3  style="text-align:left;font-weight: bold;">主办机构</h3>
-                <div class="flexslider1">
+                <div class="row">
+                    <div class="col-lg-6">
+                      <img src="img/zhuban_slide3.jpg" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                      <img src="img/zhuban_slide2.jpg" />
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="img/zhuban_slide1.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <h3  style="text-align:left;font-weight: bold;">支持机构</h3>
+                <div class="flexslider2 col-lg-12">
                   <ul class="slides">
                     <li>
-                      <img src="img/zhuban_slide1.jpg" />
+                      <img src="img/zhichi_slide1.jpg" />
                     </li>
                     <li>
-                      <img src="img/zhuban_slide2.jpg" />
+                      <img src="img/zhichi_slide2.jpg" />
                     </li>
                     <li>
-                      <img src="img/zhuban_slide3.jpg" />
+                      <img src="img/zhichi_slide3.jpg" />
                     </li>
                     <li>
-                      <img src="img/zhuban_slide4.jpg" />
-                    </li>
-                    <li>
-                      <img src="img/zhuban_slide5.jpg" />
-                    </li>
-                    <li>
-                      <img src="img/zhuban_slide6.jpg" />
-                    </li>
-                    <li>
-                      <img src="img/zhuban_slide7.jpg" />
+                      <img src="img/zhichi_slide4.jpg" />
                     </li>
                   </ul>
                 </div>
             </div>
             <div class="col-lg-12">
-                <h3  style="text-align:left;font-weight: bold;">支持机构</h3>
-            </div>
-            <div class="col-lg-12">
                 <h3  style="text-align:left;font-weight: bold;">往届赞助商</h3>
+                <div class="flexslider3 col-lg-12">
+                  <ul class="slides">
+                    <li>
+                      <img src="img/wangjie_slide1.jpg" />
+                    </li>
+                    <li>
+                      <img src="img/wangjie_slide2.jpg" />
+                    </li>
+                    <li>
+                      <img src="img/wangjie_slide3.jpg" />
+                    </li>
+                    <li>
+                      <img src="img/wangjie_slide4.jpg" />
+                    </li>
+                    <li>
+                      <img src="img/wangjie_slide5.jpg" />
+                    </li>
+                    <li>
+                      <img src="img/wangjie_slide6.jpg" />
+                    </li>
+                  </ul>
+                </div>
             </div>
         </div>
     </div>

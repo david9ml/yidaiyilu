@@ -98,8 +98,8 @@ theme = "yidaiyilu"
 
     # About section
 	[params.about]
-		title = "赞助商"
-		subtitle = "机构与赞助商"
+		title = "友情链接"
+		subtitle = "友情链接"
 		endpoint = "Be part<br>of our<br>story!"
 
 		# The events will be listed from the top to the bottom.
